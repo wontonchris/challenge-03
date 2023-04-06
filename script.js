@@ -29,9 +29,12 @@ function generatePassword() {
   if(includespecial) {
     charset += special;
   }
+  // if (charset === 0){
+  //   alert("Does not meet requirements"); 
+  // }
 
-  for (var i=0; i < length; i++) {
-    password += charset.charAt(Math.floor(Math.random() * charset.length)); 
+  for (var p=0; p < length; p++) {
+    password += charset.charAt(Math.floor(Math.random() * charset.length)); // charAT,Math.floor, Math.random 
   }
 
   return password;

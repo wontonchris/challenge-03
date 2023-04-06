@@ -14,4 +14,4 @@ GitHub Repo: https://github.com/wontonchris/challenge-03
 Live Site : https://wontonchris.github.io/challenge-03/
 
 ```
-![Screenshot](https://cdn.discordapp.com/attachments/1085659301005250651/1093376300166676480/2023-04-05_22_14_59-Window.png)
+![Screenshot](2023-04-05 22_14_59-Window)
