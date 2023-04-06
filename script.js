@@ -16,6 +16,7 @@ function generatePassword() {
   var includespecial = confirm("special symbols?");
   //build pw attempt
   var charset = "";
+  
 
   if(includelowerCase) {
     charset += lowerCase;
@@ -32,6 +33,8 @@ function generatePassword() {
   // if (charset === 0){
   //   alert("Does not meet requirements"); 
   // }
+
+  
 
   for (var p=0; p < length; p++) {
     password += charset.charAt(Math.floor(Math.random() * charset.length)); // charAT,Math.floor, Math.random 
