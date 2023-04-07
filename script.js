@@ -10,7 +10,7 @@ function generatePassword() {
 
   var length = parseInt(prompt("choose a length of at least 8 characters and no more than 128 characters"));
   if(length < 8 || length > 128) {
-    alert("does not meet requirements");
+    alert("does not meet requirements"); //how to stop generating?
   }
 
   var includelowerCase = confirm("lower case?");
